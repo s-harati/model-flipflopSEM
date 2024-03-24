@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="num_levels_var_response" displayName="Number of levels of response variable (participation)" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="sets_per_batch" displayName="Sets per Batch" type="int" 
+						defaultValue="2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="algorithm_Q2" displayName="Select algorithm: TD_DoubleQLearning" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="agentu_pop_thr_mean" displayName="AgentU Population Threshold Mean" type="double" 
+						defaultValue="0.3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="steps_per_episode" displayName="Steps per Episode" type="int" 
+						defaultValue="3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="episodes_per_run" displayName="Episodes per Run" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="num_levels_var_independent" displayName="Number of levels of independent variable (label density)" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="runs_per_set" displayName="Runs per Set" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="objective" displayName="Choose calibration or validation" type="java.lang.String" 
+						defaultValue="Calibration_readThresholds" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="Calibration_writeThresholds Calibration_readThresholds Validation Validation_randomBaseline "
+						
+		/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="epsilon" displayName="Epsilon (exploration param)" type="double" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="algorithm_expS" displayName="Select algorithm: TD_expectedSARSA" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="agentu_pop_thr_sd" displayName="AgentU Population Threshold Standard Deviation" type="double" 
+						defaultValue="0.06" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="algorithm_Q" displayName="Select algorithm: TD_QLearning" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="algorithm_S" displayName="Select algorithm: TD_SARSA" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="alpha" displayName="Alpha (learning param)" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="algorithm_S2" displayName="Select algorithm: TD_DoubleSARSA" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="agentu_count" displayName="AgentU Count" type="int" 
+						defaultValue="9" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="algorithm_expS2" displayName="Select algorithm: TD_DoubleExpectedSARSA" type="boolean" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="gamma" displayName="Future discount rate (gamma)" type="double" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		</parameters>
+
+
