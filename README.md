@@ -10,4 +10,4 @@ The model is built by coupling two independently developed models that were writ
 
 To run the coupled model: First, create the folder structure that is used in the flip-flop mechanism (use the link below) Next, download or prepare data required for running each part of the model (use the link below) Finally, enter the paths of the above-said folders and datasets in the codes. In R codes, these paths should be entered in identified lines at the beginning of the files named "share*.r" In Java codes, these paths should be entered in identified lines at the beginning of the files named "AgentG.java" and "Registrar.java"
 
-Model results and input datasets are available at [datasets repository placeholder]
+Model results and input datasets are available at https://osf.io/urjq8/
